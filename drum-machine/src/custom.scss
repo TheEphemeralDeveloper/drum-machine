@@ -1,0 +1,17 @@
+$wood-dark: #5C3B1E;     // Deep Mahogany Wood  
+$wood-light: #A67C52;    // Aged Oak  
+$metal-brushed: #B8B8B8; // Brushed Aluminum  
+$dial-glow: #E0C47A;     // Warm Amber Glow  
+$fabric-grill: #3F3F3F;  // Speaker Fabric Grey  
+
+$theme-colors: (
+    'wood-dark': $wood-dark,
+    'wood-light': $wood-light,
+    'metal-brushed': $metal-brushed,
+    'dial-glow': $dial-glow,
+    'fabric-grill': $fabric-grill
+);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons'
