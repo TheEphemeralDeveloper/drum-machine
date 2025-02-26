@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='position-relative'>
       <div className='position-fixed top-50 start-50 translate-middle'>
-          <div className='d-flex justify-content-center align-items-center bg-wood-dark bg-gradient border border-1 border-fabric-grill rounded py-2 px-4'>
+          <div className='d-flex justify-content-center align-items-center bg-wood-dark bg-gradient border border-1 border-fabric-grill rounded py-2 px-4 shadow-lg'>
               <div 
               id='drum-machine' 
               className='container row'>
